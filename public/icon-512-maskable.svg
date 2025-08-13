@@ -1,0 +1,16 @@
+<svg width="512" height="512" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="grad512mask" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <!-- Safe area for maskable icons (100px padding) -->
+  <rect width="512" height="512" fill="url(#grad512mask)"/>
+  <!-- Content in safe area (312x312 in center) -->
+  <rect x="100" y="100" width="312" height="312" fill="url(#grad512mask)" rx="50"/>
+  <circle cx="256" cy="200" r="60" fill="white" opacity="0.9"/>
+  <text x="256" y="220" text-anchor="middle" fill="#667eea" font-size="32" font-weight="bold" font-family="Arial, sans-serif">AI</text>
+  <text x="256" y="320" text-anchor="middle" fill="white" font-size="24" font-weight="bold" font-family="Arial, sans-serif">LIVE</text>
+  <text x="256" y="350" text-anchor="middle" fill="white" font-size="24" font-weight="bold" font-family="Arial, sans-serif">TRANSLATE</text>
+</svg>

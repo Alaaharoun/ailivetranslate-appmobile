@@ -1,0 +1,19 @@
+<svg width="750" height="1334" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bgGrad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <rect width="750" height="1334" fill="url(#bgGrad2)"/>
+  <rect x="50" y="100" width="650" height="1134" fill="white" opacity="0.1" rx="30"/>
+  <text x="375" y="300" text-anchor="middle" fill="white" font-size="36" font-weight="bold" font-family="Arial, sans-serif">AI Live Translate</text>
+  <text x="375" y="350" text-anchor="middle" fill="white" font-size="18" font-family="Arial, sans-serif">Mobile WebView</text>
+  <circle cx="375" cy="500" r="60" fill="white" opacity="0.2"/>
+  <text x="375" y="515" text-anchor="middle" fill="white" font-size="24" font-weight="bold" font-family="Arial, sans-serif">AI</text>
+  <text x="375" y="650" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif">Access the AI Live Translate</text>
+  <text x="375" y="680" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif">website in a mobile-optimized</text>
+  <text x="375" y="710" text-anchor="middle" fill="white" font-size="16" font-family="Arial, sans-serif">interface</text>
+  <rect x="200" y="800" width="350" height="80" fill="white" opacity="0.2" rx="40"/>
+  <text x="375" y="850" text-anchor="middle" fill="white" font-size="18" font-weight="bold" font-family="Arial, sans-serif">Get Started</text>
+</svg>
