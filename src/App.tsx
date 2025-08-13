@@ -1,22 +1,21 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './App.css';
 
 function App() {
+  useEffect(() => {
+    // Simple redirect to main site
+    window.location.href = 'https://ailivetranslate.net';
+  }, []);
+
   return (
     <div className="App">
-      <iframe
-        src="https://ailivetranslate.net"
-        title="AI Live Translate"
-        className="webview-iframe"
-        allow="microphone; camera; geolocation; encrypted-media"
-        sandbox="allow-same-origin allow-scripts allow-forms allow-popups allow-popups-to-escape-sandbox"
-        style={{
-          width: '100%',
-          height: '100%',
-          border: 'none',
-          display: 'block'
-        }}
-      />
+      <div className="loading-container">
+        <div className="loading-spinner"></div>
+        <p>Redirecting to AI Live Translate...</p>
+        <p style={{ fontSize: '14px', opacity: 0.7, marginTop: '10px' }}>
+          Opening the main application...
+        </p>
+      </div>
     </div>
   );
 }

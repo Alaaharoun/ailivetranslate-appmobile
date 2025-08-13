@@ -45,6 +45,62 @@
   100% { transform: rotate(360deg); }
 }
 
+/* Simple container */
+.simple-container {
+  text-align: center;
+  color: white;
+  padding: 40px;
+  max-width: 400px;
+}
+
+.app-icon {
+  margin-bottom: 30px;
+}
+
+.icon-circle {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  font-size: 32px;
+  font-weight: bold;
+  color: white;
+}
+
+.simple-container h1 {
+  font-size: 28px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.simple-container p {
+  font-size: 16px;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.open-button {
+  background: white;
+  color: #667eea;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+.open-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3);
+}
+
 /* Make the iframe take full container size */
 .webview-iframe {
   width: 100%;
