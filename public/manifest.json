@@ -2,6 +2,8 @@
   "short_name": "AI Live Translate",
   "name": "AI Live Translate Mobile",
   "description": "AI Live Translate Mobile WebView - Access the AI Live Translate website in a mobile-optimized interface",
+  "version": "6.8.00",
+  "version_code": 2,
   "icons": [
     {
       "src": "favicon.ico",
