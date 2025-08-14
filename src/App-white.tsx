@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import './App.css';
-import logo from './Logo.png';
 
 function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -18,17 +17,17 @@ function App() {
 
   if (isLoading) {
     return (
-      <div className="App">
-        <div className="loading-screen">
-          <div className="logo-container">
-            <div className="logo-circle">
-              <img src={logo} alt="AI Live Translate" className="logo-image" />
+      <div className="App-white">
+        <div className="loading-screen-white">
+          <div className="logo-container-white">
+            <div className="logo-circle-white">
+              <span className="logo-text-white">AI</span>
             </div>
           </div>
-          <h1 className="app-title">AI Live Translate</h1>
-          <p className="app-subtitle">Mobile WebView Application</p>
-          <div className="loading-spinner"></div>
-          <p className="loading-text">Loading...</p>
+          <h1 className="app-title-white">AI Live Translate</h1>
+          <p className="app-subtitle-white">Mobile WebView Application</p>
+          <div className="loading-spinner-white"></div>
+          <p className="loading-text-white">Loading...</p>
         </div>
       </div>
     );
