@@ -4,6 +4,7 @@
   "description": "AI Live Translate Mobile WebView - Access the AI Live Translate website in a mobile-optimized interface",
   "version": "6.8.00",
   "version_code": 2,
+  "package_name": "com.ailivetranslate.app",
   "icons": [
     {
       "src": "favicon.ico",
@@ -43,7 +44,7 @@
   "scope": "/",
   "lang": "en",
   "dir": "ltr",
-  "id": "ai-live-translate-mobile",
+  "id": "com.ailivetranslate.app",
   "categories": ["productivity", "utilities", "education"],
   "launch_handler": {
     "client_mode": "navigate-existing"
